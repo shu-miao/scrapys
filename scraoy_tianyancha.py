@@ -142,8 +142,8 @@ def get_cookie():
     browser.find_element(By.XPATH, '//*[@id="web-content"]/div/div/div/div/div[2]').click()
     browser.find_element(By.XPATH,
                          '//*[@id="web-content"]/div/div/div/div/div[6]/div/div[1]/div[2]').click()
-    browser.find_element(By.XPATH, '//*[@id="mobile"]').send_keys('18788769290')
-    browser.find_element(By.XPATH, '//*[@id="password"]').send_keys('lzh20001217...')
+    browser.find_element(By.XPATH, '//*[@id="mobile"]').send_keys('账号')
+    browser.find_element(By.XPATH, '//*[@id="password"]').send_keys('密码')
     browser.find_element(By.XPATH, '//*[@id="agreement-checkbox-account"]').click()
     time.sleep(2)
     browser.find_element(By.XPATH,
